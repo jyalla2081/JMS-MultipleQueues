@@ -1,0 +1,227 @@
+2021-05-18 21:10:54,377 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 23436 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+2021-05-18 21:10:54,378 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: prod
+2021-05-18 21:10:54,575 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-05-18 21:10:54,576 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:10:54,577 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-05-18 21:10:54,577 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-18 21:10:54,577 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-05-18 21:10:54,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-18 21:10:54,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-18 21:10:54,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-05-18 21:10:54,603 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-05-18 21:10:54,603 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 222 ms
+2021-05-18 21:10:54,664 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:10:54,704 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-05-18 21:10:54,722 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:10:54,725 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-18 21:10:54,725 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Attempting to connect to: [13.235.108.82:5672]
+2021-05-18 21:10:54,824 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Created new connection: rabbitConnectionFactory#68d70ea1:0/SimpleConnection@5fde547c [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60250]
+2021-05-18 21:10:55,019 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UserQueueListenerApplication in 0.682 seconds (JVM running for 32.609)
+2021-05-18 21:10:55,020 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-05-18 21:11:04,300 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-05-18 21:11:04,328 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [RMI TCP Connection(4)-127.0.0.1] Waiting for workers to finish.
+2021-05-18 21:11:05,117 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [RMI TCP Connection(4)-127.0.0.1] Successfully waited for workers to finish.
+2021-05-18 21:11:05,322 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [RMI TCP Connection(4)-127.0.0.1] Shutdown ignored - container is not active already
+2021-05-18 21:11:05,323 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(4)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:11:09,692 INFO com.jyalla.reciever.UserQueueListenerApplication [main] UserQueueListenerApplication Started
+2021-05-18 21:11:09,847 INFO com.jyalla.reciever.UserQueueListenerApplication [restartedMain] UserQueueListenerApplication Started
+2021-05-18 21:11:10,208 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 24156 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+2021-05-18 21:11:10,208 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: prod
+2021-05-18 21:11:10,249 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-18 21:11:10,250 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-18 21:11:11,049 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-05-18 21:11:11,058 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:11:11,059 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-05-18 21:11:11,059 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-18 21:11:11,062 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-05-18 21:11:11,062 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-18 21:11:11,062 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-18 21:11:11,065 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-05-18 21:11:11,121 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-05-18 21:11:11,122 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 872 ms
+2021-05-18 21:11:11,448 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:11:11,626 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-05-18 21:11:11,701 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:11:11,718 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-18 21:11:11,719 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Attempting to connect to: [13.235.108.82:5672]
+2021-05-18 21:11:11,861 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Created new connection: rabbitConnectionFactory#305f613:0/SimpleConnection@38169878 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60265]
+2021-05-18 21:11:12,092 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UserQueueListenerApplication in 2.235 seconds (JVM running for 3.163)
+2021-05-18 21:12:27,116 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2021-05-18 21:12:27,150 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [RMI TCP Connection(5)-127.0.0.1] Waiting for workers to finish.
+2021-05-18 21:12:27,914 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [RMI TCP Connection(5)-127.0.0.1] Successfully waited for workers to finish.
+2021-05-18 21:12:28,144 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [RMI TCP Connection(5)-127.0.0.1] Shutdown ignored - container is not active already
+2021-05-18 21:12:28,146 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(5)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:12:32,618 INFO com.jyalla.reciever.UserQueueListenerApplication [main] UserQueueListenerApplication Started
+2021-05-18 21:12:32,760 INFO com.jyalla.reciever.UserQueueListenerApplication [restartedMain] UserQueueListenerApplication Started
+2021-05-18 21:12:33,126 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 7544 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+2021-05-18 21:12:33,126 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: prod
+2021-05-18 21:12:33,165 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-18 21:12:33,165 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-18 21:12:34,351 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-05-18 21:12:34,360 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:12:34,360 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-05-18 21:12:34,361 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-18 21:12:34,363 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-05-18 21:12:34,364 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-18 21:12:34,364 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-18 21:12:34,367 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-05-18 21:12:34,422 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-05-18 21:12:34,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1256 ms
+2021-05-18 21:12:34,737 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:12:34,912 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-05-18 21:12:34,988 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:12:35,004 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-18 21:12:35,006 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Attempting to connect to: [13.235.108.82:5672]
+2021-05-18 21:12:35,149 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Created new connection: rabbitConnectionFactory#22dc4e4:0/SimpleConnection@4e238a35 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60314]
+2021-05-18 21:12:35,387 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UserQueueListenerApplication in 2.619 seconds (JVM running for 3.541)
+2021-05-18 21:16:18,237 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [Thread-1] Waiting for workers to finish.
+2021-05-18 21:16:18,460 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [Thread-1] Successfully waited for workers to finish.
+2021-05-18 21:16:18,668 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [Thread-1] Shutdown ignored - container is not active already
+2021-05-18 21:16:18,669 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:16:18,727 INFO com.jyalla.reciever.UserQueueListenerApplication [restartedMain] UserQueueListenerApplication Started
+2021-05-18 21:16:18,778 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.jyalla.reciever.UserQueueListenerApplication.main(UserQueueListenerApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - Could not find an appender named [STDOUT]. Did you define it below instead of above in the configuration file?
+ERROR in ch.qos.logback.core.joran.action.AppenderRefAction - See http://logback.qos.ch/codes.html#appender_order for more details.
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 23 common frames omitted
+2021-05-18 21:16:29,415 INFO com.jyalla.reciever.UserQueueListenerApplication [restartedMain] UserQueueListenerApplication Started
+2021-05-18 21:16:29,475 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 7544 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+2021-05-18 21:16:29,475 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: prod
+2021-05-18 21:16:29,730 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2021-05-18 21:16:29,731 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:16:29,731 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-05-18 21:16:29,731 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-18 21:16:29,732 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-05-18 21:16:29,732 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-18 21:16:29,732 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-18 21:16:29,732 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-05-18 21:16:29,756 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-05-18 21:16:29,756 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 277 ms
+2021-05-18 21:16:29,811 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:16:29,843 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-05-18 21:16:29,864 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2021-05-18 21:16:29,866 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-18 21:16:29,867 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Attempting to connect to: [13.235.108.82:5672]
+2021-05-18 21:16:29,963 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [restartedMain] Created new connection: rabbitConnectionFactory#23e0fa75:0/SimpleConnection@25718f85 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60487]
+2021-05-18 21:16:30,161 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started UserQueueListenerApplication in 0.727 seconds (JVM running for 238.314)
+2021-05-18 21:16:30,165 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-05-18 21:17:24,530 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [Thread-6] Waiting for workers to finish.
+2021-05-18 21:17:24,686 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [Thread-6] Successfully waited for workers to finish.
+2021-05-18 21:17:24,890 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [Thread-6] Shutdown ignored - container is not active already
+2021-05-18 21:17:24,890 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-18 21:17:24,941 INFO com.jyalla.reciever.UserQueueListenerApplication [restartedMain] UserQueueListenerApplication Started
+21:17:24.972 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 7544 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+21:17:24.972 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+21:17:25.128 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+21:17:25.129 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+21:17:25.129 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+21:17:25.129 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+21:17:25.129 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+21:17:25.130 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21:17:25.130 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:17:25.130 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+21:17:25.150 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+21:17:25.151 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 176 ms
+21:17:25.199 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+21:17:25.230 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+21:17:25.240 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+21:17:25.243 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+21:17:25.244 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+21:17:25.341 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#2a5793f7:0/SimpleConnection@36b42935 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60507]
+21:17:25.542 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.597 seconds (JVM running for 293.696)
+21:17:25.543 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+21:19:39.774 [34mINFO [0;39m [ Thread-13] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+21:19:40.757 [34mINFO [0;39m [ Thread-13] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+21:19:40.959 [34mINFO [0;39m [ Thread-13] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Shutdown ignored - container is not active already
+21:19:40.959 [34mINFO [0;39m [ Thread-13] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Shutting down ExecutorService 'applicationTaskExecutor'
+21:19:41.017 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+21:19:43.331 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 7544 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+21:19:43.332 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+21:19:43.482 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+21:19:43.483 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+21:19:43.483 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+21:19:43.483 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+21:19:43.483 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21:19:43.483 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:19:43.484 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+21:19:43.499 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat-1].[localhost].[/]    [0;39m - Initializing Spring embedded WebApplicationContext
+21:19:43.499 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 166 ms
+21:19:43.541 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+21:19:43.567 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+21:19:43.582 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+21:19:43.583 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+21:19:43.679 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#36213638:0/SimpleConnection@2232b05 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60584]
+21:19:43.881 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.581 seconds (JVM running for 432.034)
+21:19:43.882 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+21:19:59.412 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+21:19:59.438 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+21:20:00.059 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+21:20:00.265 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Shutdown ignored - container is not active already
+21:20:00.266 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Shutting down ExecutorService 'applicationTaskExecutor'
+21:20:06.454 [34mINFO [0;39m [      main] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+21:20:06.591 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+21:20:06.973 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 12160 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+21:20:06.974 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+21:20:07.015 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+21:20:07.015 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+21:20:07.785 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+21:20:07.794 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+21:20:07.795 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+21:20:07.795 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+21:20:07.797 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+21:20:07.797 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21:20:07.798 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:20:07.800 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+21:20:07.860 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+21:20:07.861 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 846 ms
+21:20:08.195 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+21:20:08.364 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+21:20:08.442 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+21:20:08.458 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+21:20:08.460 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+21:20:08.630 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#4021027b:0/SimpleConnection@2007608f [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60615]
+21:20:08.895 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 2.292 seconds (JVM running for 3.241)
+21:20:59.927 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=b1041411-8389-41ac-baa9-a46fd200ad39, messageBody=Saved the User with ID- 14eeac84-1f4a-4a38-8436-3883f533237b and Name: controllertest, messageDate=Tue May 18 21:20:59 IST 2021]
+21:26:35.984 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=70b590c9-adec-4378-88be-c0dabae72e49, messageBody=Saved the User with ID- 6e233f5c-6f4d-47bd-ba1e-a8bc83f45ea7 and Name: controllertest, messageDate=Tue May 18 21:26:35 IST 2021]
+21:31:57.820 [31mWARN [0;39m [AMQP Connection 13.235.108.82:5672] [36mc.r.c.impl.ForgivingExceptionHandler    [0;39m - An unexpected connection driver error occured (Exception message: Connection reset)
+21:31:58.007 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Restarting Consumer@4d4a3ca2: tags=[[amq.ctag-2PXI0xOf1hdyyCxbgzifMQ]], channel=Cached Rabbit Channel: AMQChannel(amqp://appuser@13.235.108.82:5672/,1), conn: Proxy@6ebcfeac Shared Rabbit Connection: SimpleConnection@2007608f [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60615], acknowledgeMode=AUTO local queue size=0
+21:31:58.009 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+21:31:58.106 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#4021027b:1/SimpleConnection@63cacbfd [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 60949]
+21:34:29.777 [34mINFO [0;39m [RMI TCP Connection(18)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+21:34:29.807 [34mINFO [0;39m [RMI TCP Connection(18)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+21:34:29.871 [34mINFO [0;39m [RMI TCP Connection(18)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+21:34:30.109 [34mINFO [0;39m [RMI TCP Connection(18)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Shutdown ignored - container is not active already
+21:34:30.110 [34mINFO [0;39m [RMI TCP Connection(18)-127.0.0.1] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Shutting down ExecutorService 'applicationTaskExecutor'

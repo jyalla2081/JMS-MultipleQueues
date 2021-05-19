@@ -1,0 +1,135 @@
+12:19:56.710 [34mINFO [0;39m [      main] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+12:19:56.901 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+12:19:57.319 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 7288 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+12:19:57.320 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+12:19:57.357 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:19:57.357 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:19:58.153 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+12:19:58.163 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+12:19:58.164 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+12:19:58.164 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+12:19:58.167 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+12:19:58.167 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:19:58.167 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:19:58.170 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+12:19:58.227 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+12:19:58.228 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 870 ms
+12:19:58.600 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+12:19:58.767 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - LiveReload server is running on port 35729
+12:19:58.842 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+12:19:58.861 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+12:19:58.864 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+12:19:59.040 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#1392c1a3:0/SimpleConnection@7e1ff86c [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 51235]
+12:19:59.358 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 2.448 seconds (JVM running for 3.842)
+12:23:06.020 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=7fb2ebb7-e20c-459c-b21c-bd6b7a05c471, messageBody=Saved the User with ID- 0c55481e-2040-4e17-b4a1-b9639270b4a6 and Name: servicetest, messageDate=Wed May 19 12:23:05 IST 2021]
+12:25:55.639 [34mINFO [0;39m [RMI TCP Connection(10)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+12:25:55.684 [34mINFO [0;39m [RMI TCP Connection(10)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+12:25:56.396 [34mINFO [0;39m [RMI TCP Connection(10)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+12:25:56.613 [34mINFO [0;39m [RMI TCP Connection(10)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Shutdown ignored - container is not active already
+12:25:56.614 [34mINFO [0;39m [RMI TCP Connection(10)-127.0.0.1] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Shutting down ExecutorService 'applicationTaskExecutor'
+18:34:49.908 [34mINFO [0;39m [      main] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:34:50.081 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:34:50.439 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 8508 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-queue-listener)
+18:34:50.439 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+18:34:50.477 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:34:50.477 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:34:51.246 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+18:34:51.255 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+18:34:51.255 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:34:51.255 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+18:34:51.257 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+18:34:51.258 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18:34:51.258 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:34:51.260 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+18:34:51.316 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:34:51.316 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 839 ms
+18:34:51.629 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+18:34:51.796 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+18:34:51.868 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+18:34:51.883 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+18:34:51.885 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+18:34:52.065 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#2a1369a:0/SimpleConnection@1df00e80 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 52343]
+18:34:52.359 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 2.268 seconds (JVM running for 3.347)
+18:34:52.409 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=3fffe9fa-279c-48d8-972c-71c9c119529e, messageBody=Saved the User with ID- e6d0a068-8ec3-4c62-987c-5c4d34671c48 and Name: servicetest, messageDate=Wed May 19 18:30:22 IST 2021]
+18:34:52.411 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=a623cf44-610a-4390-ac53-b8b8d51a2b74, messageBody=Modified the User with ID- null and Name: servicetest, messageDate=Wed May 19 18:31:19 IST 2021]
+18:36:25.989 [34mINFO [0;39m [      main] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:36:26.129 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:36:26.481 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 592 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-topic-listener2\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-topic-listener2)
+18:36:26.481 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+18:36:26.518 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:36:26.518 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:36:27.366 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8081 (http)
+18:36:27.377 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8081"]
+18:36:27.377 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:36:27.377 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+18:36:27.380 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+18:36:27.380 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18:36:27.380 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:36:27.383 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+18:36:27.440 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:36:27.440 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 921 ms
+18:36:27.758 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+18:36:27.921 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+18:36:27.999 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8081"]
+18:36:28.014 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8081 (http) with context path ''
+18:36:28.016 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+18:36:28.187 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#2ce600a1:0/SimpleConnection@3d931fdc [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 52379]
+18:36:28.335 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 2.198 seconds (JVM running for 3.122)
+18:36:28.380 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=a623cf44-610a-4390-ac53-b8b8d51a2b74, messageBody=Modified the User with ID- null and Name: servicetest, messageDate=Wed May 19 18:31:19 IST 2021]
+18:40:58.395 [34mINFO [0;39m [  Thread-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+18:40:59.389 [34mINFO [0;39m [  Thread-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+18:40:59.594 [34mINFO [0;39m [  Thread-1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Shutdown ignored - container is not active already
+18:40:59.595 [34mINFO [0;39m [  Thread-1] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Shutting down ExecutorService 'applicationTaskExecutor'
+18:40:59.674 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:40:59.714 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 592 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-topic-listener2\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-topic-listener2)
+18:40:59.715 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+18:40:59.884 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8082 (http)
+18:40:59.885 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8082"]
+18:40:59.885 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:40:59.885 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+18:40:59.886 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+18:40:59.886 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18:40:59.886 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:40:59.886 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+18:40:59.910 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:40:59.910 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 193 ms
+18:40:59.961 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+18:40:59.993 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+18:41:00.013 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8082"]
+18:41:00.015 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8082 (http) with context path ''
+18:41:00.016 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+18:41:00.142 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#7773b0c4:0/SimpleConnection@32c0abf4 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 52494]
+18:41:00.262 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 0.584 seconds (JVM running for 275.049)
+18:41:00.264 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.a.ConditionEvaluationDeltaLoggingListener[0;39m - Condition evaluation unchanged
+18:41:16.073 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin[0;39m - Application shutdown requested.
+18:41:16.104 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Waiting for workers to finish.
+18:41:16.409 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Successfully waited for workers to finish.
+18:41:16.622 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.a.r.l.SimpleMessageListenerContainer[0;39m - Shutdown ignored - container is not active already
+18:41:16.622 [34mINFO [0;39m [RMI TCP Connection(9)-127.0.0.1] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Shutting down ExecutorService 'applicationTaskExecutor'
+18:41:33.904 [34mINFO [0;39m [      main] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:41:34.044 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - UserQueueListenerApplication Started
+18:41:34.401 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Starting UserQueueListenerApplication using Java 11 on JYALLA-L-2081 with PID 15340 (C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-topic-listener2\target\classes started by jyalla in C:\Users\jyalla\Documents\workspace-sts-3.9.15.RELEASE\user-topic-listener2)
+18:41:34.402 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - The following profiles are active: prod
+18:41:34.440 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:41:34.440 [34mINFO [0;39m [restartedMain] [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:41:35.203 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat initialized with port(s): 8082 (http)
+18:41:35.212 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Initializing ProtocolHandler ["http-nio-8082"]
+18:41:35.212 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardService       [0;39m - Starting service [Tomcat]
+18:41:35.213 [34mINFO [0;39m [restartedMain] [36mo.a.catalina.core.StandardEngine        [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.45]
+18:41:35.215 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+18:41:35.215 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18:41:35.215 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:41:35.218 [34mINFO [0;39m [restartedMain] [36mo.a.c.core.AprLifecycleListener         [0;39m - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+18:41:35.274 [34mINFO [0;39m [restartedMain] [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m - Initializing Spring embedded WebApplicationContext
+18:41:35.274 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - Root WebApplicationContext: initialization completed in 833 ms
+18:41:35.585 [34mINFO [0;39m [restartedMain] [36mo.s.s.c.ThreadPoolTaskExecutor          [0;39m - Initializing ExecutorService 'applicationTaskExecutor'
+18:41:35.749 [31mWARN [0;39m [restartedMain] [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m - Unable to start LiveReload server
+18:41:35.820 [34mINFO [0;39m [restartedMain] [36mo.a.coyote.http11.Http11NioProtocol     [0;39m - Starting ProtocolHandler ["http-nio-8082"]
+18:41:35.836 [34mINFO [0;39m [restartedMain] [36mo.s.b.w.e.tomcat.TomcatWebServer        [0;39m - Tomcat started on port(s): 8082 (http) with context path ''
+18:41:35.838 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Attempting to connect to: [13.235.108.82:5672]
+18:41:35.995 [34mINFO [0;39m [restartedMain] [36mo.s.a.r.c.CachingConnectionFactory      [0;39m - Created new connection: rabbitConnectionFactory#11bdcaf2:0/SimpleConnection@75f55a95 [delegate=amqp://appuser@13.235.108.82:5672/, localPort= 52520]
+18:41:36.160 [34mINFO [0;39m [restartedMain] [36mc.j.r.UserQueueListenerApplication      [0;39m - Started UserQueueListenerApplication in 2.107 seconds (JVM running for 2.995)
+18:43:08.029 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=27b0c662-a7cb-4b45-b7df-18c0cbd6f185, messageBody=Modified the User with ID- null and Name: lol, messageDate=Wed May 19 18:43:07 IST 2021]
+18:45:49.789 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=f1cd8ce9-c804-44ce-99ba-148d68e9b187, messageBody=Modified the User with ID- null and Name: lol, messageDate=Wed May 19 18:45:49 IST 2021]
+18:50:23.063 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=c48ea2cf-d734-406d-bdc7-df9de6498533, messageBody=Modified the User with ID- null and Name: controllertest, messageDate=Wed May 19 18:50:23 IST 2021]
+18:52:54.902 [34mINFO [0;39m [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] [36mcom.jyalla.reciever.MessageListner      [0;39m - Recieved MEssage is: CustomMessage [messageId=0cde8eee-ffa7-4fea-8723-8c51d968835a, messageBody=Modified the User with ID- 5dd367df-3a67-4c94-ae0f-c707672c1f37 and Name: controllertest, messageDate=Wed May 19 18:52:54 IST 2021]

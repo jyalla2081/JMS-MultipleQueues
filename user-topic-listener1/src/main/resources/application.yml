@@ -1,0 +1,37 @@
+spring:
+
+  profiles:
+    active: prod
+    
+  datasource:    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Adonai7!
+    initialization-mode: always
+    platform: postgres
+
+  jpa:    show-sql: true
+    generate-ddl: true
+    hibernate:      ddl-auto: update
+    properties:      hibernate:
+        enable_lazy_load_no_trans: true
+  flyway:    url: jdbc:postgresql://localhost:5432/postgres
+    schemas: public
+    user: postgres
+    password: Adonai7!  rabbitmq:    username: appuser
+    password: appuser@123
+    host: 13.235.108.82
+    port: 5672    
+        jwt:
+  secret: evoke
+  maxExpiry: 5000000
+    
+rabbitmq:
+  queue: 2081-queue1
+  queue2: 2081-queue2
+  exchange: 2081-topic1
+  router: 2081-router1
+  routerDuplicate: 2081-router2
+
+server:  port: 8081
+  
+ 
